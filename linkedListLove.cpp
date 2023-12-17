@@ -110,7 +110,7 @@ void deleteNode(Node* &head,Node* &tail, int position)
     }
 }
 
-int deleteWithValue(Node* &head,Node* &tail, int value)
+void deleteWithValue(Node* &head,Node* &tail, int value)
 {
     Node* temp = head;
     int cnt = 1;
